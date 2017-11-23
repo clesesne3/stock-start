@@ -5,11 +5,11 @@
 }
 
 body {
-  background-image: url('img/bkgrd1.jpg');
+  background-image: url('img/bkgrd2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
-  padding: 5%;
+  padding: 8%;
 }
 
 h1 {
@@ -19,14 +19,17 @@ h1 {
 /* LANDING PAGE */
 
 #enter-button {
-  width: 17%;
+  width: 35%;
   position: relative;
-  top: 12em;
+  top: 10em;
+  left: 2em;
   text-align: center;
   color: Purple;
   margin: 0 auto;
-  font-size: 1.5em;
+  font-size: 1.9em;
   font-family: 'Barlow Semi Condensed';
+  font-weight: bold;
+  text-shadow: 1px 1px #FFF;
 }
 
 #enter-button:hover {
