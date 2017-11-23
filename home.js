@@ -2,5 +2,5 @@
 
 $(document).ready(function() {
   $('#enter-button').addClass('hide');
-  $('#enter-button').fadeIn(1500);
+  $('#enter-button').fadeIn(2000);
 });

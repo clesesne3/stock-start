@@ -19,16 +19,16 @@ h1 {
 /* LANDING PAGE */
 
 #enter-button {
-  width: 35%;
+  width: 40%;
   position: relative;
   top: 10em;
   left: 2em;
   text-align: center;
-  color: Purple;
+  color: Indigo;
   margin: 0 auto;
   font-size: 1.9em;
-  font-family: 'Barlow Semi Condensed';
-  font-weight: bold;
+  font-family: 'Cabin';
+  font-weight: bolder;
   text-shadow: 1px 1px #FFF;
 }
 
