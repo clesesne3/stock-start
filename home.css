@@ -16,6 +16,9 @@ h1 {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+}
 /* LANDING PAGE */
 
 #enter-button {
@@ -26,14 +29,20 @@ h1 {
   text-align: center;
   color: Indigo;
   margin: 0 auto;
-  font-size: 1.9em;
+  font-size: 2em;
   font-family: 'Cabin';
   font-weight: bolder;
   text-shadow: 1px 1px #FFF;
 }
 
+/*#wealth-text {
+  color: #FFF;
+  text-shadow: 1px 1px Black;
+}*/
+
 #enter-button:hover {
   color: Green;
+  cursor: pointer;
 }
 
 /* ANIMATIONS */
