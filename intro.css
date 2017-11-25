@@ -1,5 +1,17 @@
-body {
+/* GENERAL/ELEMENTS */
 
+body {
+  margin: 0;
+}
+
+a {
+  width: 10%;
+  text-decoration: none;
+  color: #FFF;
+}
+
+h2 {
+  text-align: center;
 }
 
 #header {
@@ -10,14 +22,13 @@ body {
   text-align: center;
 }
 
-a {
-  width: 10%;
-  text-decoration: none;
-  color: #FFF;
-}
-
 #header-title {
   width: 20%;
   margin: 0 auto;
   font-family: 'Abel';
+  font-size: 2em;
+}
+
+.dollar {
+  color: Green;
 }
