@@ -1,0 +1,40 @@
+/* GENERAL/ELEMENTS */
+
+body {
+  margin: 0;
+}
+
+a {
+  width: 10%;
+  text-decoration: none;
+  color: #FFF;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header {
+  width: auto;
+  margin: 0;
+  padding: 3%;
+  background-color: Black;
+  text-align: center;
+}
+
+#header-title {
+  width: 20%;
+  margin: 0 auto;
+  font-family: 'Abel';
+  font-size: 2em;
+}
+
+.dollar {
+  color: Green;
+}

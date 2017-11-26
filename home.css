@@ -1,0 +1,57 @@
+/* BODY */
+
+* {
+
+}
+
+body {
+  background-image: url('img/bkgrd2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  padding: 8%;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+/* LANDING PAGE */
+
+#enter-button {
+  width: 40%;
+  position: relative;
+  top: 10em;
+  left: 2em;
+  text-align: center;
+  color: Indigo;
+  margin: 0 auto;
+  font-size: 2em;
+  font-family: 'Cabin';
+  font-weight: bolder;
+  text-shadow: 1px 1px #FFF;
+}
+
+#enter-button:hover {
+  color: Green;
+  cursor: pointer;
+}
+
+/* ANIMATIONS */
+.hide {
+  display: none;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
