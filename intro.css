@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+section {
+  padding: 3%;
+}
+
 a {
   width: 10%;
   text-decoration: none;
@@ -19,6 +23,7 @@ p {
   margin: 0 auto;
   text-align: center;
   font-family: 'Abel';
+  font-size: 1.1em;
 }
 
 #header {
@@ -38,4 +43,15 @@ p {
 
 .dollar {
   color: Green;
+}
+
+#section-two {
+  background-color: Black;
+}
+
+#para-1 {
+
+}
+#header-2, #para-2 {
+  color: #FFF;
 }
