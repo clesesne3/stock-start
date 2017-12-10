@@ -26,6 +26,29 @@ p {
   font-size: 1.2em;
 }
 
+button {
+  width: 100%;
+  padding: 3%;
+  border-radius: 15px;
+  background-color: Red; 
+  color: #FFF;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+}
+
+button:hover {
+  background-color: Green;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+#begin-button {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* HEADER */
 
 #header {
