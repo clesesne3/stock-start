@@ -37,6 +37,13 @@ a {
   cursor: pointer;
 }
 
+#audio-div {
+  width: 10%;
+  margin: 0 auto;
+  position: relative;
+  top: 35em;
+  left: 39%;
+}
 /* ANIMATIONS */
 .hide {
   display: none;
