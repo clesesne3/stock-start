@@ -5,7 +5,7 @@ body {
 }
 
 section {
-  padding: 3%;
+  padding: 5%;
 }
 
 a {
@@ -19,12 +19,14 @@ h2 {
 }
 
 p {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   text-align: center;
   font-family: 'Abel';
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
+
+/* HEADER */
 
 #header {
   width: auto;
@@ -38,7 +40,7 @@ p {
   width: 20%;
   margin: 0 auto;
   font-family: 'Abel';
-  font-size: 2em;
+  font-size: 2.2em;
 }
 
 .dollar {
@@ -46,12 +48,26 @@ p {
 }
 
 #section-two {
+  background-image: url('img/growth-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding: 15%;
+}
+
+#section-three {
+  background-color: #FFF;
+}
+
+#header-3, #para-3 {
+  color: Black;
+}
+
+/* FOOTER */
+#footer {
+  padding: 2%;
   background-color: Black;
-}
-
-#para-1 {
-
-}
-#header-2, #para-2 {
   color: #FFF;
+  font-size: 1em;
+  font-weight: bold;
 }
