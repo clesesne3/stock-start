@@ -37,7 +37,7 @@ button {
   font-style: italic;
 }
 
-button:hover {
+.buttonChange {
   background-color: Green;
   cursor: pointer;
   border-radius: 0;
