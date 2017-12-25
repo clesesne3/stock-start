@@ -16,6 +16,8 @@ a {
 
 h2 {
   text-align: center;
+  font-family: 'Abel';
+  font-weight: bold;
 }
 
 p {
@@ -28,7 +30,7 @@ p {
 
 button {
   width: 100%;
-  padding: 3%;
+  padding: 0.9em;
   border-radius: 15px;
   background-color: Red; 
   color: #FFF;
