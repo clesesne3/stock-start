@@ -1,7 +1,7 @@
 /* BODY */
 
 body {
-  background-image: url('img/bkgrd2.jpg');
+  background-image: url('../../img/bkgrd2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
@@ -62,7 +62,7 @@ a {
 }
 
 /* MOBILE */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 640px) {
 
 }
 

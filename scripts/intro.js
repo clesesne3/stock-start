@@ -2,6 +2,6 @@
 
 $(document).ready(function() {
   $('#begin-button').hover(function() {
-    $('#begin-button button').toggleClass('buttonChange');
+    $('#begin-button button').delay().toggleClass('buttonChange');
   });
 });
