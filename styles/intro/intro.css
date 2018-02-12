@@ -5,7 +5,7 @@ body {
 }
 
 section {
-  padding: 5%;
+  padding: 10%;
 }
 
 a {
@@ -26,7 +26,7 @@ p {
   margin: 0 auto;
   text-align: center;
   font-family: 'Abel';
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 button {
@@ -55,7 +55,7 @@ button {
 /* HEADER */
 .header {
   font-family: 'Abel';
-  font-size: 2.3em;
+  font-size: 2.1em;
   background-color: Black;
   text-align: center;
 }
@@ -63,9 +63,10 @@ button {
 #header {
   width: auto;
   margin: 0;
-  padding: 3%;
+  padding: 0.5rem;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 #header-title {
@@ -77,16 +78,34 @@ button {
   color: Green;
 }
 
+.top-nav {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 6rem;
+}
+
+li.nav-li {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/* MAIN BODY */
+
 #section-two {
   background-image: url('../../img/growth-1.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  padding: 15%;
+  padding: 22%;
 }
 
 #section-three {
   background-color: #FFF;
+  position: relative;
 }
 
 #header-3, #para-3 {
@@ -99,6 +118,36 @@ button {
 }
 
 #para-4 {
+  color: #FFF;
+}
+
+#section-five {
+  background-image: url('../../img/piggy-bank.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 18%;
+  opacity: 0.7;
+}
+
+#div-5 {
+  position: relative;
+  top: 1.5rem;
+  left: 25em;
+}
+
+.para-5 {
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+}
+
+#section-six {
+  background-color: blue;
+  color: #FFF;
+}
+
+#para-6 {
   color: #FFF;
 }
 
