@@ -56,7 +56,7 @@ button {
 .header {
   font-family: 'Abel';
   font-size: 2.1em;
-  background-color: Black;
+  background-color: #FFF;
   text-align: center;
 }
 
@@ -67,22 +67,28 @@ button {
   position: sticky;
   top: 0;
   z-index: 100;
+  background-color: Black;
 }
 
 #header-title {
   width: 30%;
-  margin: 1rem auto;
-  padding-bottom: 2%;
+  margin: 1rem auto 1.5rem auto;
+  border: 10px double Black;
+  border-radius: 10px;
 }
 
 #link-title {
   padding: 2%;
-  border: 3px solid #FFF;
-  border-radius: 5px;
+  color: Black;
 }
 
 .dollar {
   color: Green;
+}
+
+#race-flag {
+  background-color: #FFF;
+  margin: 0 0.5rem 0 0.5rem;
 }
 
 .top-nav {
