@@ -1,11 +1,14 @@
 'use strict';
 
-$(document).ready(function() {
-  $('#begin-button').hover(function() {
-    $('#begin-button button').delay().toggleClass('buttonChange');
-  });
+$('#begin-button').hover(function() {
+  $('#begin-button button').delay().toggleClass('buttonChange');
+});
 
-  $('li.nav-li').hover(function() {
-    $(this).toggleClass('dollar');
-  });
+$('li.nav-li').hover(function() {
+  $(this).toggleClass('dollar');
+});
+
+$('.nav-li').on('click', function() {
+  $('.nav-li').removeClass('active');
+  $(this).toggleClass('active');
 });

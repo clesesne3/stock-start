@@ -1,11 +1,11 @@
 'use strict';
 
 const express = require('express');
-const fs = require('fs');
+// const fs = require('fs');
 const bodyParser = require('body-parser');
-const pg = require('pg');
+// const pg = require('pg');
 const cors = require('cors');
-const superAgent = require('superagent');
+// const superAgent = require('superagent');
 
 const PORT = process.env.PORT || 3000;
 const app = express();
@@ -20,5 +20,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server istening on PORT ${PORT}`)
+  console.log(`Server listening on PORT ${PORT}`)
 });

@@ -91,17 +91,26 @@ button {
   margin: 0 0.5rem 0 0.5rem;
 }
 
+.nav {
+  margin-left: 3em;
+}
+
 .top-nav {
   margin: 0;
 }
 
 .nav li {
   display: inline;
-  margin-right: 6rem;
+  margin-right: 8rem;
 }
 
 li.nav-li {
   font-size: 1.3rem;
+}
+
+.active {
+  color: Blue;
+  border: 1px solid Blue;
 }
 
 /* MAIN BODY */
