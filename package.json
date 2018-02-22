@@ -1,0 +1,28 @@
+{
+  "name": "stock-start",
+  "version": "1.0.0",
+  "description": "Stock investment side project",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "fs": "^0.0.1-security",
+    "pg": "^7.4.1",
+    "superagent": "^3.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clesesne3/stock-start.git"
+  },
+  "author": "Chris Lesesne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clesesne3/stock-start/issues"
+  },
+  "homepage": "https://github.com/clesesne3/stock-start#readme"
+}
