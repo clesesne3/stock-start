@@ -163,6 +163,20 @@ li.nav-li {
   font-weight: bold;
 }
 
+#search-bar-title {
+  margin-top: 2rem;
+  font-style: italic;
+  color: gold;
+}
+
+#quote-search {
+  padding: 1%; 
+  border-radius: 5px;
+  color: Black;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
 #section-six {
   background-color: blue;
   color: #FFF;
