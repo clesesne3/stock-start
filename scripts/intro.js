@@ -13,6 +13,6 @@ $('.nav-li').on('click', function() {
   $(this).toggleClass('active');
 });
 
-$('#quote-find-form').on('submit', function() {
-
-});
+// $('#quote-find-form').on('submit', function() {
+//
+// });
