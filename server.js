@@ -5,7 +5,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 // const pg = require('pg');
 const cors = require('cors');
-// const superAgent = require('superagent');
+const superAgent = require('superagent');
 
 const PORT = process.env.PORT || 3000;
 const app = express();
@@ -17,6 +17,16 @@ app.use(cors());
 // test route
 app.get('/', (req, res) => {
   res.send('Route Successful');
+});
+
+// test API call
+app.get('/quote', (req, res) => {
+  superAgent.get('')
+    .then(data => {
+      console.log(data);
+      res.send();
+    })
+    .catch(err => console.error(err));
 });
 
 app.listen(PORT, () => {
