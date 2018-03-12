@@ -13,6 +13,7 @@ $('.nav-li').on('click', function() {
   $(this).toggleClass('active');
 });
 
-// $('#quote-find-form').on('submit', function() {
-//
+// $('#quote-search-form').on('submit', function(event) {
+//   event.preventDefault();
+//   let quoteVal = $('#quote-search').val();
 // });
