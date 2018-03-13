@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 
 // test API call
 app.get('/quote', (req, res) => {
-  superAgent.get('https://api.iextrading.com/1.0/stock/aapl/batch?types=quote')
+  superAgent.get('https://api.iextrading.com/1.0/stock/fb/batch?types=quote')
     .then(data => {
       console.log(data.body.quote);
       res.send(data.body.quote);

@@ -13,7 +13,15 @@ $('.nav-li').on('click', function() {
   $(this).toggleClass('active');
 });
 
-// $('#quote-search-form').on('submit', function(event) {
-//   event.preventDefault();
-//   let quoteVal = $('#quote-search').val();
-// });
+$('#quote-search-form').on('submit', function(event) {
+  event.preventDefault();
+  $('#quote-search-result').remove();
+  let quoteVal = $('#quote-search').val();
+  $.getJSON(`https://api.iextrading.com/1.0/stock/${quoteVal}/batch?types=quote`)
+    .then(data => {
+      console.log(data);
+      let price = data.quote.latestPrice;
+      $('#div-5').append(`<div id="quote-search-result">Latest Price: $${price}</div>`);
+    })
+    .catch(err => {console.error(err)});
+});
