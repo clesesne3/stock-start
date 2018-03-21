@@ -170,11 +170,19 @@ li.nav-li {
 }
 
 #quote-search {
+  width: 25%;
   padding: 1%; 
   border-radius: 5px;
+  text-align: center;
   color: Black;
   font-size: 1.1rem;
   font-style: italic;
+}
+
+.quote-search-result {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: 'Abel';
 }
 
 #section-six {
