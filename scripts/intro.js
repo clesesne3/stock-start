@@ -15,13 +15,15 @@ $('.nav-li').on('click', function() {
 
 $('#quote-search-form').on('submit', function(event) {
   event.preventDefault();
-  $('#quote-search-result').remove();
+  $('.quote-search-result').remove();
   let quoteVal = $('#quote-search').val();
   $.getJSON(`https://api.iextrading.com/1.0/stock/${quoteVal}/batch?types=quote`)
     .then(data => {
       console.log(data);
       let price = data.quote.latestPrice;
-      $('#div-5').append(`<div id="quote-search-result">Latest Price: $${price}</div>`);
+      let company = data.quote.companyName;
+      $('#div-5').append(`<div class="quote-search-result" id="result-name">${company}</div>`);
+      $('#div-5').append(`<div class="quote-search-result" id="result-price">Latest Price: $${price}</div>`);
     })
     .catch(err => {console.error(err)});
 });

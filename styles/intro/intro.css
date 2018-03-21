@@ -179,6 +179,12 @@ li.nav-li {
   font-style: italic;
 }
 
+.quote-search-result {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: 'Abel';
+}
+
 #section-six {
   background-color: blue;
   color: #FFF;
