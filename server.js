@@ -29,6 +29,16 @@ app.get('/quote', (req, res) => {
     .catch(err => console.error(err));
 });
 
+// test stock symbol search API call
+app.get('/symbol', (req, res) => {
+  superAgent.get('')
+    .then(data => {
+      console.log(data);
+      res.send(data);
+    })
+    .catch(err => console.error(err));
+});
+
 app.listen(PORT, () => {
   console.log(`Server listening on PORT ${PORT}`)
 });
